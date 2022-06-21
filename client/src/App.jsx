@@ -5,6 +5,7 @@ import React from "react";
  * @components
  */
 import Navbar from "./components/Navbar";
+import Topbar from "./components/Topbar";
 
 /**
  * @pages
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <div className="app__container">
       <Navbar />
+      <Topbar/>
       <Home/>
     </div>
   );
