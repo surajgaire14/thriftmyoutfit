@@ -7,10 +7,10 @@ export default function Navbar() {
     <div className='navbar__container'>
         <div className="left">
             <ul>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
+                <li>Home</li>
+                <li>Sale</li>
+                <li>Shop</li>
+                <li>Business</li>
             </ul>
         </div>
         <div className="center">
