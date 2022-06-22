@@ -271,5 +271,123 @@
         color: #fff;
       }
     }
+
+    .description {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 20px;
+      margin: 30px 0;
+
+      ul,
+      div {
+        flex: 1 1 0;
+      }
+      ul {
+        list-style: none;
+        border-right: 1px solid #000;
+
+        h1 {
+          font-size: 3.2em;
+        }
+
+        p {
+          color: #5a5a5a;
+        }
+      }
+
+      div {
+        padding: 0 50px;
+
+        p {
+          color: #5a5a5a;
+          margin: 20px 0;
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          color: #000;
+
+          span {
+            background: #000;
+            color: #fff;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  // @section => collaboration container
+  .collaboration__container {
+    margin-top: 90px;
+
+    ul {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none;
+
+      li {
+        width: 16.8vw;
+        overflow: hidden;
+
+        &:nth-child(1) {
+          height: 600px;
+        }
+        &:nth-child(2) {
+          height: 700px;
+        }
+        &:nth-child(3) {
+          height: 650px;
+        }
+        &:nth-child(4) {
+          height: 650px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: space-around;
+
+          h1 {
+            width: 500px;
+            line-height: 1.3;
+            font-weight: 400;
+            font-size: 3.3em;
+            transform: rotate(-90deg);
+            transform-origin: right, top;
+            -ms-transform: rotate(-90deg);
+            -ms-transform-origin: right, top;
+            -webkit-transform: rotate(-90deg);
+            -webkit-transform-origin: right, top;
+
+            span{
+              text-decoration: underline;
+            }
+          }
+
+          p{
+            font-size: 30px;
+
+            span{
+              background: #000;
+              color: #fff;
+            }
+          }
+        }
+        &:nth-child(5) {
+          height: 650px;
+          border-radius: 0 0 0 150px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
   }
 }

@@ -4,6 +4,10 @@ import App from './App'
 import 'remixicon/fonts/remixicon.css'
 import 'animate.css';
 import './main.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
