@@ -1,5 +1,5 @@
 import React from "react";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 /**
  * @components
@@ -14,10 +14,14 @@ import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <div className="app__container">
-      <Navbar />
-      <Topbar/>
-      <Home/>
-    </div>
+    <Router>
+      <div className="app__container">
+        <Navbar />
+        <Topbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
