@@ -1,0 +1,70 @@
+[
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1550238311-f673f0ef79f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+        "productName": "Summer Combo Set",
+        "priceDetails": {
+            "discounted": true,
+            "oldPrice": 85,
+            "newPrice": 60
+        }
+    },
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1578682443756-573e32709f94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
+        "productName": "Custom Printed Tote Bag",
+        "priceDetails": {
+            "discounted": true,
+            "oldPrice": 10,
+            "newPrice": 7
+        }
+    },
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1467043237213-65f2da53396f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+        "productName": "Casual Wear Combo",
+        "priceDetails": {
+            "discounted": false,
+            "oldPrice": 55
+        }
+    },
+    {
+        "imgUrl": "https://minimal-kit-react.vercel.app/static/mock-images/products/product_3.jpg",
+        "productName": "Nike Air Zoom 3",
+        "priceDetails": {
+            "discounted": false,
+            "oldPrice": 27.95
+        }
+    },
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80",
+        "productName": "Water Proof Bomber Jacket",
+        "priceDetails": {
+            "discounted": true,
+            "oldPrice": 25,
+            "newPrice": 20
+        }
+    },
+    {
+        "imgUrl": "https://static-01.daraz.com.np/p/ae7ed31b832dba4929bcf15dc49997f7.jpg",
+        "productName": "Naruto Headband",
+        "priceDetails": {
+            "discounted": false,
+            "oldPrice": 33
+        }
+    },
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1557704595-ecd34dc3a4b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
+        "productName": "Madame Dry Rose Water",
+        "priceDetails": {
+            "discounted": true,
+            "oldPrice": 10,
+            "newPrice": 7
+        }
+    },
+    {
+        "imgUrl": "https://images.unsplash.com/photo-1551446339-1e5c6f164ec2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80",
+        "productName": "Aveno Moisturizer",
+        "priceDetails": {
+            "discounted": false,
+            "oldPrice": 50
+        }
+    }
+]

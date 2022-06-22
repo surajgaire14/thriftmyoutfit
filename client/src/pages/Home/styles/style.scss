@@ -173,6 +173,7 @@
     }
   }
 
+  // @section => instagram container
   .instagram__container {
     margin-top: 120px;
 
@@ -204,6 +205,8 @@
         width: 20vw;
         overflow: hidden;
         position: relative;
+        box-shadow: 0 0 2px 0 rgb(145 158 171 / 24%),
+          0 16px 32px -4px rgb(145 158 171 / 24%);
 
         img {
           width: 100%;
@@ -216,35 +219,56 @@
           bottom: 20px;
           right: 20px;
           font-size: 20px;
-          color: #6a6a6a;
+          color: #fff;
         }
 
         &:nth-child(even) {
           transform: rotate(-2deg);
+          height: 350px;
 
           &:hover {
             transform: rotate(0deg);
+            box-shadow: 0 0 2px 0 rgb(145 158 171 / 54%),
+              0 16px 32px -4px rgb(145 158 171 / 54%);
 
-            img{
-transform: scale(1.2);
+            img {
+              transform: scale(1.2);
             }
           }
         }
 
         &:nth-child(odd) {
           transform: rotate(2deg);
+          height: 300px;
 
           img {
             height: 300px;
           }
           &:hover {
             transform: rotate(0deg);
+            box-shadow: 0 0 2px 0 rgb(145 158 171 / 54%),
+              0 16px 32px -4px rgb(145 158 171 / 54%);
 
-            img{
+            img {
               transform: scale(1.2);
             }
           }
         }
+      }
+    }
+  }
+
+  // @section => how we got started container
+  .howWeStarted__container {
+    margin-top: 80px;
+
+    .title {
+      font-size: 4.5em;
+      font-weight: 400;
+
+      span {
+        background: #000;
+        color: #fff;
       }
     }
   }

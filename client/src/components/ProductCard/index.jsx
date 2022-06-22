@@ -3,18 +3,24 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles/style.css";
 
-export default function ProductCard() {
+export default function ProductCard({item}) {
+  const {imgUrl, productName, priceDetails} = item;
+
   return (
     <Link to="/" className="productCard__container">
-      <img
-        src="https://minimal-kit-react.vercel.app/static/mock-images/products/product_2.jpg"
-        alt=""
-      />
+      <img src={imgUrl} alt="" />
       <div className="details">
-        <p className="productName">Some random shoes</p>
+        <p className="productName">{productName}</p>
         <div className="specifications">
           <div className="price">
-            <div className="normalPrice">$ 50</div>$ 30
+            {priceDetails.discounted ? (
+              <>
+                <div className="normalPrice">${priceDetails.oldPrice}</div> $
+                {priceDetails.newPrice}
+              </>
+            ) : (
+              <>${priceDetails.oldPrice}</>
+            )}
           </div>
           <div className="buttons">
             <Button>
